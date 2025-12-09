@@ -72,7 +72,7 @@ const About = () => {
 
                             <div className="image-main">
                                 <img
-                                    src="https://gradchain.com/assets/img/about/about-square-8.webp"
+                                    src="https://gradchain.com/assets/img/about/about-9.webp"
                                     alt="Modern office with a team working"
                                     className="img-fluid"
                                     loading="lazy"
@@ -81,7 +81,7 @@ const About = () => {
 
                             <div className="image-secondary">
                                 <img
-                                    src="https://gradchain.com/assets/img/about/about-9.webp"
+                                    src="https://gradchain.com/assets/img/about/about-square-8.webp"
                                     alt="Collaborative discussion"
                                     className="img-fluid"
                                     loading="lazy"
