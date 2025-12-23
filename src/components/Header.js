@@ -18,7 +18,7 @@ const Header = () => {
             <div className="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
                 {/* Logo */}
-                <a href="#home" className="logo d-flex align-items-center me-auto me-xl-0">
+                <a href="/" className="logo d-flex align-items-center me-auto me-xl-0">
                     <h1 className="sitename no-underline">GradChain</h1>
                 </a>
 
@@ -29,23 +29,23 @@ const Header = () => {
                 >
                     <ul>
                         <li>
-                            <a href="#home" onClick={closeMobileNav} className="active">Home</a>
+                            <a href="/" onClick={closeMobileNav} className="active">Home</a>
                         </li>
 
                         <li>
-                            <a href="#about" onClick={closeMobileNav}>About</a>
+                            <a href="/about" onClick={closeMobileNav}>About</a>
                         </li>
 
                         <li>
-                            <a href="#services" onClick={closeMobileNav}>Services</a>
+                            <a href="/services" onClick={closeMobileNav}>Services</a>
                         </li>
 
                         <li>
-                            <a href="#team" onClick={closeMobileNav}>Team</a>
+                            <a href="/team" onClick={closeMobileNav}>Team</a>
                         </li>
 
                         <li>
-                            <a href="#contact" onClick={closeMobileNav}>Contact Us</a>
+                            <a href="/contact" onClick={closeMobileNav}>Contact Us</a>
                         </li>
                     </ul>
 
